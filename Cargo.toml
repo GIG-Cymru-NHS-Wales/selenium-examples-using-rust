@@ -1,0 +1,11 @@
+[package]
+name = "selenium-examples-using-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+thirtyfour = "*" # Thirtyfour is a Selenium / WebDriver library for Rust, for automated website UI testing.
+color-eyre = "*" # An error report handler for panics and the eyre crate for colorful well-formatted error reports.
+serde = { version = "1", features = ["derive", "rc"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+tokio = { version = "1", features = ["full"] }
